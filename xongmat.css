@@ -7,7 +7,7 @@ header nav{
 	margin-top: 50px;
 	margin-bottom: 0;
 	padding: 150px o;
-	background-image: url(img/banner.jpg);
+	background-image: url(img/IMG_5893.jpg);
 	height: 500px;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -89,6 +89,52 @@ header nav{
 #feature4{
 	padding: 30px 0;
 	background-color: whitesmoke;
+}
+.jumbotron-1{
+	padding: 50px 50px;
+	/*background-image: url(img/IMG_5890.jpg);*/
+	height: 500px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;<!--chinhr không bị bụt 2 bên-->
+	font-family: serif;
+	text-align: center;
+}
+
+.jumbotron-2{
+	padding: 50px 50px;
+	/*background-image: url(img/IMG_5895.jpg);*/
+	height: 500px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;<!--chinhr không bị bụt 2 bên-->
+	font-family: serif;
+	text-align: center;
+}
+
+.banner-2{
+	margin-top: 50px;
+	margin-bottom: 0;
+	padding: 150px o;
+	background-image: url(img/IMG_5888.jpg);
+	height: 500px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;<!--chinhr không bị bụt 2 bên-->
+	font-family: serif;
+	text-align: center;
+}
+.banner-footer{
+	margin-top: 50px;
+	margin-bottom: 0;
+	padding: 150px o;
+	background-image: url(img/IMG_5888.jpg);
+	height: 500px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;<!--chinhr không bị bụt 2 bên-->
+	font-family: serif;
+	text-align: center;
 }
 #footer{
 	padding: 40px 0;
