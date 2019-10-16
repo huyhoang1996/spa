@@ -1,7 +1,41 @@
+header{
+	    margin-top: 50px;
+}
 header nav{
 	text-align: center;
 	text-transform: uppercase;
-	box-shadow: 0px 2px 5px #888;
+	/*box-shadow: 0px 2px 5px #888;*/
+	font-family: "SairaSemiCondensed-Medium";
+	font-weight: 450;
+}
+nav{
+    /*border:1px solid #ccc;*/
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+header h2{
+	    text-shadow: 0px 1px 2px #888;
+}
+nav ul {
+	    padding-left: 0px;
+}
+nav li{
+    display:inline;
+}
+nav a{
+    display:inline-block;
+    padding:10px;
+        font-weight: 500;
+    line-height: 1.1;
+    color: #000000;
+
+}
+a:hover {
+    color: #000000;
+     text-decoration: none; 
 }
 #content .jumbotron-thaoduoc{
 	margin-top: 50px;
@@ -24,6 +58,8 @@ header nav{
 }
 #text p{
 	color: whitesmoke;
+	    font-size: 21px;
+	        text-shadow: 0px 2px 5px #888;
 }
 #text .btn-feature{
 	color: aliceblue;
