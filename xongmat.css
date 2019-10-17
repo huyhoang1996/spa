@@ -49,8 +49,24 @@ a:hover {
 	font-family: serif;
 	text-align: center;
 }
+.container-small{
+	width: 1122px;
+	margin-top: 74px;
+}
 .jumbotron-thaoduoc #text{
 	padding-top: 80px;
+}
+.banner-2 #text-2{
+	padding-top: 80px;
+}
+#text-2 h1{
+	color: whitesmoke;
+	text-shadow: 0px 2px 5px #888;
+}
+#text-2 p{
+	color: whitesmoke;
+	    font-size: 21px;
+	        text-shadow: 0px 2px 5px #888;
 }
 #text h1{
 	color: whitesmoke;
@@ -135,6 +151,7 @@ a:hover {
 	background-size: cover;<!--chinhr không bị bụt 2 bên-->
 	font-family: serif;
 	text-align: center;
+	    padding-top: 0px;
 }
 
 .jumbotron-2{
@@ -146,10 +163,10 @@ a:hover {
 	background-size: cover;<!--chinhr không bị bụt 2 bên-->
 	font-family: serif;
 	text-align: center;
+	    padding-top: 0px;
 }
 
 .banner-2{
-	margin-top: 50px;
 	margin-bottom: 0;
 	padding: 150px o;
 	background-image: url(img/IMG_5888.jpg);
