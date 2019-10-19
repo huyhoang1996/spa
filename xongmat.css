@@ -5,7 +5,7 @@ header nav{
 	text-align: center;
 	text-transform: uppercase;
 	/*box-shadow: 0px 2px 5px #888;*/
-	font-family: "SairaSemiCondensed-Medium";
+	font-family: "SairaSemiCondensed-Regular";
 	font-weight: 450;
 }
 nav{
@@ -16,14 +16,24 @@ nav{
     padding:0;
     text-align:center;
 }
-header h2{
-	    text-shadow: 0px 1px 2px #888;
+p{
+	font-family: "SairaSemiCondensed-Regular";
+
 }
 nav ul {
 	    padding-left: 0px;
 }
 nav li{
     display:inline;
+	font-family: "SairaSemiCondensed-SemiBold";
+
+}
+.list-social img{
+	height: 100%;
+}
+.list-social a{
+	    height: 32px;
+    padding-top: 0px;
 }
 nav a{
     display:inline-block;
@@ -31,14 +41,18 @@ nav a{
         font-weight: 500;
     line-height: 1.1;
     color: #000000;
-
+	font-family: "SairaSemiCondensed-SemiBold";
 }
-a:hover {
+nav a:hover {
     color: #000000;
      text-decoration: none; 
 }
+.text-header h2{
+	font-family: "SairaSemiCondensed-SemiBold";
+
+}
 #content .jumbotron-thaoduoc{
-	margin-top: 50px;
+	margin-top: 25px;
 	margin-bottom: 0;
 	padding: 150px o;
 	background-image: url(img/IMG_5893.jpg);
@@ -188,6 +202,45 @@ a:hover {
 	background-size: cover;<!--chinhr không bị bụt 2 bên-->
 	font-family: serif;
 	text-align: center;
+	/* Add the blur effect */
+	  filter: blur(8px);
+	  -webkit-filter: blur(2px);
+	  
+	  /* Full height */
+	  /*height: 100%; */
+	  
+	  /* Center and scale the image nicely */
+	  background-position: center;
+	  background-repeat: no-repeat;
+	  background-size: cover;
+}
+.text-banner{
+  color: white;
+  font-weight: bold;
+  /*border: 3px solid #f1f1f1;*/
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+.position-relative{
+	position: relative;
+}
+.text-banner a{
+	color: white;
+
+}
+.text-banner a:focus, a:hover {
+    color: white;
+    text-decoration: underline;
+}
+.text-detail-banner{
+	margin-top: 90px;
+	/*float:left;*/
 }
 #footer{
 	padding: 40px 0;
