@@ -21,12 +21,11 @@ p{
 
 }
 nav ul {
-	    padding-left: 0px;
+	padding-left: 0px;
 }
 nav li{
     display:inline;
 	font-family: "SairaSemiCondensed-SemiBold";
-
 }
 .list-social img{
 	height: 100%;
@@ -38,7 +37,7 @@ nav li{
 nav a{
     display:inline-block;
     padding:10px;
-        font-weight: 500;
+    font-weight: 500;
     line-height: 1.1;
     color: #000000;
 	font-family: "SairaSemiCondensed-SemiBold";
@@ -62,13 +61,33 @@ nav a:hover {
 	background-size: cover;<!--chinhr không bị bụt 2 bên-->
 	font-family: serif;
 	text-align: center;
+	font-family: "SairaSemiCondensed-Medium";
 }
-.container-small{
-	width: 1122px;
-	margin-top: 74px;
+.text-banner-1{
+	padding-top: 124px;
 }
-.jumbotron-thaoduoc #text{
-	padding-top: 80px;
+.text-banner-1 p{
+	padding-top: 20px;
+}
+.text-banner-2{
+	padding-top: 124px;
+
+}
+.text-banner-2 p{
+	padding-top: 20px;
+}
+@media only screen and (min-width: 1024px){
+    .container-small{
+		width: 1122px;
+	}
+}
+.margin-vertical{
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+h2{
+	font-family: "SairaSemiCondensed-Medium";
+
 }
 .banner-2 #text-2{
 	padding-top: 80px;
@@ -85,6 +104,7 @@ nav a:hover {
 #text h1{
 	color: whitesmoke;
 	text-shadow: 0px 2px 5px #888;
+	font-family: "SairaSemiCondensed-Medium";
 }
 #text p{
 	color: whitesmoke;
@@ -156,10 +176,14 @@ nav a:hover {
 	padding: 30px 0;
 	background-color: whitesmoke;
 }
+.jumbotron-0{
+	padding: 0px 30px;
+
+}
 .jumbotron-1{
-	padding: 50px 50px;
+	    margin-top: 70px;
+	padding: 0px 30px;
 	/*background-image: url(img/IMG_5890.jpg);*/
-	height: 500px;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;<!--chinhr không bị bụt 2 bên-->
@@ -169,9 +193,8 @@ nav a:hover {
 }
 
 .jumbotron-2{
-	padding: 50px 50px;
+	padding: 0px 30px;
 	/*background-image: url(img/IMG_5895.jpg);*/
-	height: 500px;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;<!--chinhr không bị bụt 2 bên-->
@@ -242,11 +265,34 @@ nav a:hover {
 	margin-top: 90px;
 	/*float:left;*/
 }
-#footer{
-	padding: 40px 0;
-	
-}
 #footer li{
 	padding-top: 30px;
 }
-
+.end-footer{
+    padding-top: 24px;
+    height: 80px;
+    list-style:none;
+    text-align:center;
+}
+.end-footer ul {
+	padding-left: 0px;
+}
+.end-footer li{
+    display:inline;
+	font-family: "SairaSemiCondensed-SemiBold";
+}
+.end-footer .pull-right a{
+    display:inline-block;
+    padding:10px;
+    font-weight: 500;
+    line-height: 1.1;
+    color: #000000;
+	font-family: "SairaSemiCondensed-SemiBold";
+}
+.end-footer a:hover {
+    color: #000000;
+     text-decoration: none; 
+}
+.end-footer .pull-left p{
+	font-family: "SairaSemiCondensed-SemiBold";
+}
