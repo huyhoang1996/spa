@@ -1,0 +1,14 @@
+*.DS_Store
+
+*.pyc
+
+logs/*
+
+!public/
+public/*
+
+!public/media/
+public/media/*
+
+log_uwsgi.txt
+*.sock

@@ -54,7 +54,7 @@ nav a:hover {
 	margin-top: 25px;
 	margin-bottom: 0;
 	padding: 150px o;
-	background-image: url(img/IMG_5893.jpg);
+	background-image: url(../images/IMG_5893.jpg);
 	height: 500px;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -183,7 +183,7 @@ h2{
 .jumbotron-1{
 	    margin-top: 70px;
 	padding: 0px 30px;
-	/*background-image: url(img/IMG_5890.jpg);*/
+	/*background-image: url(../images/IMG_5890.jpg);*/
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;<!--chinhr không bị bụt 2 bên-->
@@ -194,7 +194,7 @@ h2{
 
 .jumbotron-2{
 	padding: 0px 30px;
-	/*background-image: url(img/IMG_5895.jpg);*/
+	/*background-image: url(../images/IMG_5895.jpg);*/
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;<!--chinhr không bị bụt 2 bên-->
@@ -206,7 +206,7 @@ h2{
 .banner-2{
 	margin-bottom: 0;
 	padding: 150px o;
-	background-image: url(img/IMG_5888.jpg);
+	background-image: url(../images/IMG_5888.jpg);
 	height: 500px;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -218,7 +218,7 @@ h2{
 	margin-top: 50px;
 	margin-bottom: 0;
 	padding: 150px o;
-	background-image: url(img/IMG_5888.jpg);
+	background-image: url(../images/IMG_5888.jpg);
 	height: 500px;
 	background-repeat: no-repeat;
 	background-position: center;
