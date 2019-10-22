@@ -50,6 +50,11 @@ nav a:hover {
 	font-family: "SairaSemiCondensed-SemiBold";
 
 }
+.title-menu{
+	font-family: "SairaSemiCondensed-SemiBold";
+	text-transform: uppercase;
+    font-weight: 900;
+}
 #content .jumbotron-thaoduoc{
 	margin-top: 25px;
 	margin-bottom: 0;
@@ -296,3 +301,4 @@ h2{
 .end-footer .pull-left p{
 	font-family: "SairaSemiCondensed-SemiBold";
 }
+
