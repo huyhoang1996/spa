@@ -20,6 +20,10 @@ p{
 	font-family: "SairaSemiCondensed-Regular";
 
 }
+h4{
+	font-family: "SairaSemiCondensed-Medium";
+	
+}
 nav ul {
 	padding-left: 0px;
 }
@@ -269,6 +273,10 @@ h2{
 .text-detail-banner{
 	margin-top: 90px;
 	/*float:left;*/
+}
+#image-about{
+	 text-align: center;
+
 }
 #footer li{
 	padding-top: 30px;
