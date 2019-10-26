@@ -1,4 +1,4 @@
-from main.settings import *
+from settings import *
 
  # websites/manage.py runserver --settings=config.production
 print '>>>>>>>>>   DEPLOY IN PRODUCTION'
